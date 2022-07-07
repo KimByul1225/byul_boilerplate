@@ -59,7 +59,7 @@ function SideMenu() {
       >
          <Box sx={{ padding: "24px 20px" }}>
             <NavLink to="/">
-               <img src="../assets/logo.svg" alt="" style={{ width: "70%" }} />
+               Logo
             </NavLink>
          </Box>
 
