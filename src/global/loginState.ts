@@ -1,5 +1,9 @@
 import { atom, selector, useRecoilState, useResetRecoilState } from "recoil";
 
+/**
+ * @description 로그인 여부 상태관리
+ */
+
 type Props = {
     isLogin: boolean;
 };
