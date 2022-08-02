@@ -1,8 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Root from "@/pages/Root";
-import Home from "@/pages/Home";
 import ErrorBoundary from "@/pages/ErrorBoundary";
+
+import Login from "@/pages/Login";
+import Guide from "@/pages/sample/Guide";
+import Root from "@/pages/Root";
+import Home from "./pages/Home";
 
 /**
  * @description 라우터 경로 설정
@@ -17,7 +20,15 @@ const router = createBrowserRouter([
             {
                 path: "",
                 element: <Home />,
-            }
+            },
+            {
+                path: "login",
+                element: <Login />,
+            },
+            {
+                path: "guide",
+                element: <Guide />,
+            },
         ],
     },
 ]);
