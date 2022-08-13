@@ -1,4 +1,3 @@
-import React from "react";
 import { AxiosRequestConfig, AxiosResponse, AxiosError } from "axios";
 import { useLayoutEffect } from "react";
 
@@ -16,7 +15,7 @@ function useAsyncInterceptors() {
     // watch
     useLayoutEffect(() => {
         const requestInterceptor = client.interceptors.request.use(
-            (config: AxiosRequestConfig) => {
+            (config) => {
                 setLoading(true);
 
                 console.log(config);
