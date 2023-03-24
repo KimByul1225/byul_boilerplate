@@ -5,7 +5,7 @@ import React from "react";
 function Home() {
     return (
         <h1 className="Auth-form-container">
-            Page01
+            Home
         </h1>
     );
 }

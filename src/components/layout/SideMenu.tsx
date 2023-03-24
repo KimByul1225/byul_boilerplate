@@ -63,7 +63,7 @@ function SideMenu() {
             </NavLink>
          </Box>
 
-         <Box
+         {/* <Box
             sx={{
                display: "flex",
                alignItems: "center",
@@ -78,9 +78,9 @@ function SideMenu() {
                <Avatar sx={{ width: 30, height: 30 }} src="/broken-image.jpg" />
             </IconButton>
             <TypographyStyle sx={{ fontWeight: "bold" }}>
-               능구렁이
+               아이디 위치
             </TypographyStyle>
-         </Box>
+         </Box> */}
          <List component="nav">
             <NavLink to="page01">
                <ListItemButtonStyle

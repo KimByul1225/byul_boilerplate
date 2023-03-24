@@ -14,6 +14,9 @@ import Container from "@mui/material/Container";
 import { useLoginState } from "@/global/loginState";
 import SideMenu from "@/components/layout/SideMenu";
 
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 /**
  * @description 루트 컴포넌트
  */
@@ -61,6 +64,12 @@ function Root() {
                   <Outlet />
                </Box>
             </Box>
+            <ToastContainer
+               position="top-center"
+               pauseOnFocusLoss
+               draggable
+               pauseOnHover
+            />
          </Container>
       </>
    );

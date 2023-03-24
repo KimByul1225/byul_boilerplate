@@ -45,12 +45,8 @@ function Login() {
       }
       // login failed
       else {
-         const message = "[!] invalid login information";
-
-         toast.warn(message, {
-            position: toast.POSITION.BOTTOM_CENTER,
-            autoClose: 1500,
-         });
+         const message = "로그인 정보가 올바르지 않습니다.";
+         toast.error(message);
       }
    };
 
@@ -70,7 +66,7 @@ function Login() {
          <div className="Auth-form-container">
             <form className="Auth-form" onSubmit={handleSubmit(onSubmit)}>
                <div className="Auth-form-content">
-                  <h3 className="Auth-form-title">Sign In</h3>
+                  <h3 className="Auth-form-title">Sign In / (email: 111, pw: 222)</h3>
                   <div className="form-group mt-3">
                      {/* <label>Email address</label>
                   <input
@@ -137,6 +133,7 @@ function Login() {
                </div>
             </form>
          </div>
+         
       </Box>
    );
 }
