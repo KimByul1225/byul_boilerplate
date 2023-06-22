@@ -24,6 +24,15 @@ export type ModalProps = {
 };
 
 /**
+ * @description Image Box props
+ */
+export type ImageBoxProps = {
+    img: string;
+};
+
+
+
+/**
  * @description Input Change Event
  */
 export type InputChange = ChangeEvent<HTMLInputElement>;
