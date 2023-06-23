@@ -1,8 +1,5 @@
-import React from "react";
-
 import ImageBox from "@/components/layout/ImageBox";
-
-import sampleImage from "@/img/sample01.jpg";
+import sample01 from "@/images/sample01.jpg";
 
 
 /**
@@ -15,7 +12,7 @@ function Home() {
                 Home
             </h1>
             <ImageBox
-                img="ddd"
+                img={sample01}
             />
         </>
         

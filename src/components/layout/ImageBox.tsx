@@ -7,7 +7,6 @@ function ImageBox({img}: ImageBoxProps) {
         <Wrap
             img={img}
         >
-            ImageBox
         </Wrap>
     )
 }
@@ -15,7 +14,8 @@ function ImageBox({img}: ImageBoxProps) {
 export default ImageBox
 
 const Wrap = styled.div<ImageBoxProps>`
-    border: 1px solid #000;
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
+    background: url(${(props) => props.img}) center no-repeat;
+    background-size: cover;
 `
