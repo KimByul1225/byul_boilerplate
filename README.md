@@ -34,3 +34,22 @@
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)    
 <br />
 
+## Project Detail 💻
+### 1. Layout 분리.
+- 추후 프로젝트를 위한 Boiler Plate Code로 Header, Side Menu, Container 영역을 분리해서 구현.
+<img width="100%" height="auto" src="./readme/project_detail01.gif" />
+<br />
+
+### 2. 로그인, 로그아웃 기능.
+- 추후 프로젝트를 위한 Boiler Plate Code로 Api연동 없이 Sample Code로 로그인, 로그아웃 구현.
+- React Hook Form을 이용한 유효성 검사.
+- React Toastify를 사용해 Alert 메세지 구현.
+- 비로그인 상태일경우 메뉴 접근 제한 구현.
+<img width="100%" height="auto" src="./readme/project_detail02.gif" />
+<br />
+
+### 3. 각종 Form타입 Sample 준비.
+- 자주사용하는 Form타입에 대해 추후 재사용 할 수 있도록 각각 Form타입별로 Component 분리.
+<img width="100%" height="auto" src="./readme/project_detail03.gif" />
+<br />
+

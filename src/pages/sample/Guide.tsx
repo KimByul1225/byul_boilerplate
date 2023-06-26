@@ -12,7 +12,7 @@ import UsageFileUpload from "@/pages/sample/UsageFileUpload";
 function Guide() {
     return (
         <div style={{ margin: "30px" }}>
-            <h1>Guide</h1>
+            <h1>Form</h1>
             <hr />
             <div className="row">
                 <div className="col">

@@ -133,7 +133,7 @@ function SideMenu() {
                </ListItemButtonStyle>
             </NavLink>
 
-            <NavLink to="guide">
+            <NavLink to="form">
                <ListItemButtonStyle
                   selected={selectedIndex === 4}
                   onClick={(event) => handleListItemClick(event, 4)}
@@ -141,7 +141,7 @@ function SideMenu() {
                   <ListItemIconStyle>
                      <img src="../assets/icons/navbar/ic_disabled.svg" alt="" />
                   </ListItemIconStyle>
-                  <TypographyStyle>Guide</TypographyStyle>
+                  <TypographyStyle>Form</TypographyStyle>
                </ListItemButtonStyle>
             </NavLink>
          </List>
