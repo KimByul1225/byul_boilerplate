@@ -4,7 +4,7 @@
 <br />
 <img height="200" src="./readme/logo.png" />
 <br />
-<a display="block" href="#">hhttps://github.com/KimByul1225/byul_boilerplate</a>
+<a display="block" href="https://byul-boilerplate.netlify.app">https://byul-boilerplate.netlify.app</a>
 <br /><br />
 </div>
 <br />
