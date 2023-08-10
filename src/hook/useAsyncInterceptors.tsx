@@ -1,4 +1,4 @@
-import { AxiosRequestConfig, AxiosResponse, AxiosError } from "axios";
+import { AxiosResponse, AxiosError } from "axios";
 import { useLayoutEffect } from "react";
 
 import { useLoadingState } from "@/global/loadingState";

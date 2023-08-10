@@ -2,9 +2,7 @@ import * as React from "react";
 import { NavLink } from "react-router-dom";
 
 import {
-   Avatar,
    Box,
-   IconButton,
    List,
    ListItemButton,
    ListItemIcon,

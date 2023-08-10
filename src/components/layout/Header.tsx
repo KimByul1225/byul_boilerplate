@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
-import { Button, Avatar, Stack, Box, IconButton } from "@mui/material";
+import { Button, Avatar, Box } from "@mui/material";
 import { useLoginState } from "@/global/loginState";
 
 /**
